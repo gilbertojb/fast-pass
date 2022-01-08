@@ -1,0 +1,23 @@
+{
+    "name": "gilbertobueno/fast-pass",
+    "type": "project",
+    "require": {
+        "php": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "FastPass\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "FastPass\\Test\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Gilberto Pereira",
+            "email": "gilbertojb@gmail.com"
+        }
+    ]
+}
